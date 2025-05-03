@@ -3,6 +3,8 @@
 ## Overview
 This project builds a CNN model for emotion recognition from grayscale facial images. The model achieves up to *72.23% accuracy* and is built entirely in TensorFlow/Keras using the FER-2013 dataset.
 
+**Note:** All outputs- sample images,training accuracy/loss graphs, confusion matrix, classification report, and sample predictions are already included in the notebook itself. No need to run the entire code again unless you wish to retrain the model again.
+
 ## Dataset
 - Dataset: FER-2013 (Facial Expression Recognition)
 - Grayscale images: 48x48 px
@@ -30,10 +32,6 @@ This project builds a CNN model for emotion recognition from grayscale facial im
   - Confusion Matrix
   - Sample Images with Labels
   - sample images with predictions
-
-
-## Sample Output
-![Sample Images](sample_predictions.png)
 
 ## Future Work
 - Implement *Transfer Learning* using pre-trained CNN architectures (e.g., VGG16, MobileNetV2)
